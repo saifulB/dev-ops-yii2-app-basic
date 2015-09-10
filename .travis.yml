@@ -50,10 +50,10 @@ script:
 
 deploy:
   provider: heroku
-  api_key: "1e256782-e6ca-475f-9a17-9b7efc5943a1"
+  api_key: "f6a82593-efab-4782-b99a-04a0383ed8c4"
   skip_cleanup: true
   strategy: api
   buildpack: https://github.com/ddollar/heroku-buildpack-multi
-  app: intense-forest-7815
+  app: vast-brushlands-3256
   on:
     php: 5.5
